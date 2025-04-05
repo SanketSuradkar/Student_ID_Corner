@@ -22,7 +22,7 @@ Follow the steps below to set up and run the project locally:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/django-crud-search.git
+   gh repo clone SanketSuradkar/Student_ID_Corner
    
 
 "# Student_ID_Corner" 
