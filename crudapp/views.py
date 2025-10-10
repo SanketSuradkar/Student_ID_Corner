@@ -3,7 +3,7 @@ from .models import Student
 from django.contrib import messages
 from django.db.models import Q
 
-
+# request index for creating .
 def index(request):
     students = Student.objects.all()
     search_query = ""
@@ -38,3 +38,4 @@ def index(request):
 
     context = {"students": students, "search_query": search_query}
     return render(request, "index.html", context=context)
+
